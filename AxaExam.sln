@@ -3,17 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Layer", "Application Layer", "{170356F7-FFED-4753-9CCA-F9F2A77F8702}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application Layer", "2. Application Layer", "{170356F7-FFED-4753-9CCA-F9F2A77F8702}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxaExam.Application.Service", "AxaExam.Application.Service\AxaExam.Application.Service.csproj", "{C37E6055-D481-47BF-B6DF-78AAC65A0F88}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain LAyer", "Domain LAyer", "{8A4949C1-7CE4-41DA-8354-DD663E1AA7CE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain Layer", "3. Domain Layer", "{8A4949C1-7CE4-41DA-8354-DD663E1AA7CE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxaExam.Domain.Entities", "AxaExam.Domain.Entities\AxaExam.Domain.Entities.csproj", "{35DAEDCF-9840-4B74-85CF-87F25CD17985}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Distibuted Inteface Layer", "1. Distibuted Inteface Layer", "{31D6EEF6-9EFD-46D3-ABEF-074BE39F991A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxaExam.Web.Services", "AxaExam.Web.Services\AxaExam.Web.Services.csproj", "{5F6557D6-29FC-404A-9BCD-1096F075B004}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infrastucture Layer", "4. Infrastucture Layer", "{20005553-5209-4B26-ADE1-31DB2FF41361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxaExam.Repositories", "AxaExam.Repositories\AxaExam.Repositories.csproj", "{A6386B51-56BB-460E-9C54-D5122F3FCE1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxaExam.Repositories.Contracts", "AxaExam.Repositories.Contracts\AxaExam.Repositories.Contracts.csproj", "{B42D6DD9-625D-49D4-A518-009D48715B15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxaExam.Persistence", "AxaExam.Persistence\AxaExam.Persistence.csproj", "{1E2AC962-5C48-4C6D-A189-5C3B205E38C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,18 @@ Global
 		{5F6557D6-29FC-404A-9BCD-1096F075B004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F6557D6-29FC-404A-9BCD-1096F075B004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F6557D6-29FC-404A-9BCD-1096F075B004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6386B51-56BB-460E-9C54-D5122F3FCE1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6386B51-56BB-460E-9C54-D5122F3FCE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6386B51-56BB-460E-9C54-D5122F3FCE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6386B51-56BB-460E-9C54-D5122F3FCE1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B42D6DD9-625D-49D4-A518-009D48715B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B42D6DD9-625D-49D4-A518-009D48715B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B42D6DD9-625D-49D4-A518-009D48715B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B42D6DD9-625D-49D4-A518-009D48715B15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2AC962-5C48-4C6D-A189-5C3B205E38C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2AC962-5C48-4C6D-A189-5C3B205E38C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2AC962-5C48-4C6D-A189-5C3B205E38C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2AC962-5C48-4C6D-A189-5C3B205E38C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +61,9 @@ Global
 		{C37E6055-D481-47BF-B6DF-78AAC65A0F88} = {170356F7-FFED-4753-9CCA-F9F2A77F8702}
 		{35DAEDCF-9840-4B74-85CF-87F25CD17985} = {8A4949C1-7CE4-41DA-8354-DD663E1AA7CE}
 		{5F6557D6-29FC-404A-9BCD-1096F075B004} = {31D6EEF6-9EFD-46D3-ABEF-074BE39F991A}
+		{A6386B51-56BB-460E-9C54-D5122F3FCE1F} = {20005553-5209-4B26-ADE1-31DB2FF41361}
+		{B42D6DD9-625D-49D4-A518-009D48715B15} = {8A4949C1-7CE4-41DA-8354-DD663E1AA7CE}
+		{1E2AC962-5C48-4C6D-A189-5C3B205E38C3} = {20005553-5209-4B26-ADE1-31DB2FF41361}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36730806-DBEC-4BAE-94C7-10E8BFE96034}
